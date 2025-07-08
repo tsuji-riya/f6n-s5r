@@ -1,0 +1,13 @@
+{
+  "name": "freshman-seminar",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "scripts": {
+    "watch": "marp index.md -w --html --allow-local-files --theme-set theme ",
+    "export": "marp index.md --pdf --allow-local-files --theme-set theme "
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  }
+}
