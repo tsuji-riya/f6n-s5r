@@ -1,1 +1,1 @@
-Avaiable on [here](https://tsuji-riya.github.io/freshman-seminar)
+Available on [here](https://tsuji-riya.github.io/freshman-seminar)
