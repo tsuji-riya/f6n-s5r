@@ -38,13 +38,22 @@ jobs:
       - name: Build HTML with Marp
         run: npm run export:html
 
+      - name: Create output directory
+        run: |
+          mkdir -p ./dist
+          cp index.html ./dist/
+          # Copy theme files if they exist
+          if [ -d "theme" ]; then
+            cp -r theme ./dist/
+          fi
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './index.html'
+          path: './dist'
 
   deploy:
     environment:
