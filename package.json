@@ -4,8 +4,9 @@
   "description": "",
   "author": "",
   "scripts": {
-    "watch": "marp index.md -w --html --allow-local-files --theme-set theme ",
-    "export": "marp index.md --pdf --allow-local-files --theme-set theme "
+    "watch": "marp index.md -w --html --allow-local-files --theme-set theme",
+    "export": "marp index.md --pdf --allow-local-files --theme-set theme",
+    "export:html": "marp index.md --html --allow-local-files --theme-set theme"
   },
   "devDependencies": {
     "@marp-team/marp-cli": "^3.4.0"
