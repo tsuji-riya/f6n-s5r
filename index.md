@@ -4,7 +4,7 @@ paginate: true
 header: "大学生は読書習慣を身につけるべき"
 footer: "2025/07/08"
 theme: gradient
-class: blue
+class: default
 ---
 
 # 大学生は読書習慣を身につけるべき
