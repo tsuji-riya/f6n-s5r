@@ -2,9 +2,9 @@
 marp: true
 paginate: true
 header: "大学生は読書習慣を身につけるべき"
-footer: "2025/07/08"
+footer: "2025/07/22"
 theme: gradient
-class: default
+class: blue
 ---
 
 # 大学生は読書習慣を身につけるべき
